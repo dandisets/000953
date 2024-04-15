@@ -64,6 +64,13 @@ relatedResource:
   resourceType: dcite:JournalArticle
   schemaKey: Resource
   url: https://doi.org/10.1016/j.neuron.2021.08.009
+- identifier: 10.1101/2024.02.06.578107
+  name: A real-time, high-performance brain-computer interface for finger decoding
+    and quadcopter control
+  relation: dcite:Cites
+  resourceType: dcite:Preprint
+  schemaKey: Resource
+  url: https://pubmed.ncbi.nlm.nih.gov/38370697/
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7

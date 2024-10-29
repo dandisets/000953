@@ -17,24 +17,27 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
-  - name: spike sorting technique
-    schemaKey: MeasurementTechniqueType
-  - name: behavioral technique
+  - name: multi electrode extracellular electrophysiology recording technique
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 22404212
-  numberOfFiles: 20
-  numberOfSubjects: 3
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 37051512
+  numberOfFiles: 2
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9544
     name: Macaca mulatta - Rhesus monkey
     schemaKey: SpeciesType
   variableMeasured:
-  - Units
+  - ElectricalSeries
   - ElectrodeGroup
   - BehavioralTimeSeries
+  - Units
 citation: 'Samuel R Nason-Tomaszewski; Matthew J. Mender; Cynthia Chestek (2024) FALCON
   Benchmark M2: primary motor cortex recordings in primate during finger movement
   (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000953/draft'
